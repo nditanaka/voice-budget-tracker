@@ -2,8 +2,9 @@
 
 Tools/ Technologies used:
 
-1. Gradient Background: [https://webgradients.com/](https://webgradients.com/)
-2. Illustrations: [https://undraw.co/illustrations](https://undraw.co/illustrations)
+1. Gradient Background: [Web Gradients](https://webgradients.com/)
+2. Illustrations: [Undraw.co](https://undraw.co/illustrations)
+3. design system: [Material UI](https://v4.mui.com/)
 
 ## Available Commands
 

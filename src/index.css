@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);;
   /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/personal_finance.png); */
   background-size: cover;
 }
