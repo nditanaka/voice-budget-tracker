@@ -1,5 +1,5 @@
 const incomeColors = ['#123123', '#154731', '#165f40', '#16784f', '#14915f', '#10ac6e', '#0bc77e', '#04e38d', '#00ff9d'];
-const expenseColors = ['#b50d12', '#bf2f1f', '#c9452c', '#d3583a', '#dc6a48', '#e57c58', '#ee8d68', '#f79d79', '#ffae8a', '#cc474b', '#f55b5f'];
+const expenseColors = ['#b50d12', '#bf2f1f', '#c9452c', '#d3583a', '#dc6a48', '#e57c58', '#ee8d68', '#f79d79', '#ffae8a', '#cc474b', '#f55b5f', '#f99595'];
 
 export const incomeCategories = [
     { type: 'Business', amount: 0, color: incomeColors[0] },
@@ -16,19 +16,19 @@ export const incomeCategories = [
 export const expenseCategories = [
     { type: 'Bills', amount: 0, color: expenseColors[0] },
     { type: 'Car', amount: 0, color: expenseColors[1] },
-    { type: 'Rent', amount: 0, color: expenseColors[0] },
     { type: 'Clothes', amount: 0, color: expenseColors[2] },
     { type: 'Travel', amount: 0, color: expenseColors[3] },
     { type: 'Food', amount: 0, color: expenseColors[4] },
     { type: 'Shopping', amount: 0, color: expenseColors[5] },
-    { type: 'House', amount: 0, color: expenseColors[6] },
+    { type: 'Rent', amount: 0, color: expenseColors[6] },
     { type: 'Entertainment', amount: 0, color: expenseColors[7] },
     { type: 'Phone', amount: 0, color: expenseColors[8] },
     { type: 'Pets', amount: 0, color: expenseColors[9] },
-    { type: 'Other', amount: 0, color: expenseColors[10] },
+    { type: 'House', amount: 0, color: expenseColors[11] },
+    { type: 'Other', amount: 0, color: expenseColors[10] }
 ];
 
 export const resetCategories = () => {
-    incomeCategories.map((c) => c.amount = 0);
-    expenseCategories.map((c) => c.amount = 0);
+    incomeCategories.map((category) => category.amount = 0);
+    expenseCategories.map((category) => category.amount = 0);
 };
