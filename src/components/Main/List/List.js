@@ -7,16 +7,9 @@ import useStyles from './styles'
 
 const List = () => {
     const classes = useStyles()
-    const {deleteTransaction} = useContext(BudgetTrackerContext)
-
-    const transactions = [
-        { id: 1, type: 'Income', category: 'Salary', amount: 1500, date: 'Sun May 29' },
-        { id: 2, type: 'Expense', category: 'Food', amount: 70, date: 'Wed May 11' },
-        { id: 3, type: 'Income', category: 'Dividends', amount: 15, date: 'Mon May 10' },
-        { id: 4, type: 'Expense', category: 'Utility', amount: 150, date: 'Fri May 27' }
-    ]
-
-  return (
+    const {deleteTransaction, transactions} = useContext(BudgetTrackerContext)
+  
+    return (
       <MUIList dense={false} className={classes.list}>
           {transactions.map((transaction) => (
               <Slide direction='down' in mountOnEnter unmountOnExit key={transaction.id}>
@@ -28,7 +21,7 @@ const List = () => {
                       </ListItemAvatar>
                       <ListItemText primary={transaction.category} secondary={`$${transaction.amount} - ${transaction.date}`} />
                       <ListItemSecondaryAction>
-                          <IconButton edge="end" aria-label="delete" onClick="">
+                          <IconButton edge="end" aria-label="delete" onClick={() => deleteTransaction(transaction.id)}>
                               <Delete />
                           </IconButton>
                       </ListItemSecondaryAction>
