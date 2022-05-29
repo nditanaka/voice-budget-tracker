@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import {Card, CardHeader, CardContent, Typography, Grid, Divider} from '@material-ui/core'
 
 import useStyles from './styles'
@@ -9,7 +9,7 @@ const Main = () => {
     const classes = useStyles()
   return (
       <Card className={classes.root}>
-          <CardHeader title="Expenses Tracker" subheader="Powered by Speechly API" />
+          <CardHeader title='Voice Budget Tracker' subheader="Powered by Speechly API" />
           <CardContent>
               <Typography align="center" variant="h5">Total Balance $100</Typography>
               <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
