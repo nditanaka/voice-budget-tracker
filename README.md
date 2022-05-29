@@ -1,12 +1,16 @@
 # Voice Budget Tracker
 
-Tools/ Technologies used:
+## Tools/ Technologies used
 
-1. Gradient Background: [Web Gradients](https://webgradients.com/)
+1. Charts and visualizations: [Chart.js](https://www.chartjs.org/)
+
 2. Illustrations: [Undraw.co](https://undraw.co/illustrations)
+
 3. design system: [Material UI](https://v4.mui.com/)
 
-## Available Commands
+4. Gradient Background: [Web Gradients](https://webgradients.com/)
+
+<!-- ## Available Commands
 
 In the project directory, you can run:
 
@@ -33,14 +37,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-
-
-
-
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
