@@ -12,6 +12,8 @@ A voice enabled web app to track and visualize income and expenses. Transactions
 
 4. Gradient Background: [Web Gradients](https://webgradients.com/)
 
+5. State Management: Context API
+
 <!-- ## Available Commands
 
 In the project directory, you can run:
