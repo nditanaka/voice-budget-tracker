@@ -7,6 +7,7 @@ import formatDate from '../../../utils/formatDate';
 import { BudgetTrackerContext } from '../../../context/context';
 import { incomeCategories, expenseCategories } from '../../../constants/categories';
 import useStyles from './styles';
+import CustomizedSnackbar from '../../Snackbar/Snackbar';
 
 const initialState = {
   amount: '',
@@ -81,6 +82,7 @@ const NewTransactionForm = () => {
 
   return (
     <Grid container spacing={2}>
+      <CustomizedSnackbar open={open} setOpen={setOpen} />
       <Grid item xs={12}>
         <Typography align="center" variant="subtitle2" gutterBottom>
         {segment ? (
