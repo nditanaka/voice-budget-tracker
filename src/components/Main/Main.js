@@ -18,7 +18,6 @@ const Main = () => {
               <Typography align="center" variant="h5">Total Balance ${balance}</Typography>
               <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
                   <InfoCard />
-                  {/* Try saying: Add income for $100 in Category Dividends for Monday ... */}
               </Typography>
               <Divider />
               <Form />
