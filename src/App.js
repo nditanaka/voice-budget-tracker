@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div>
       <CustomNavbar />
-      <Grid className={classes.grid} container spacing={0} alignItems="center" justifyContent="center" style={{ height: '90vh'}}>
+      <Grid className={classes.grid} container spacing={0} alignItems="center" justify="center" style={{ height: '100vh'}}>
         <Grid item xs={12} sm={4} className={classes.mobile}>
           <Details title="Income" />
         </Grid>
@@ -42,8 +42,7 @@ const App = () => {
           <Details title="Expense" />
         </Grid>
         <PushToTalkButtonContainer>
-        <PushToTalkButton>
-        </PushToTalkButton>
+          <PushToTalkButton />
         </PushToTalkButtonContainer>
       </Grid>
     </div>
