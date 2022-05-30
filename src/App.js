@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div>
       <CustomNavbar />
-      <Grid className={classes.grid} container spacing={0} alignItems="center" justifyContent="center" style={{ height: '100vh'}}>
+      <Grid className={classes.grid} container spacing={0} alignItems="center" justifyContent="center" style={{ height: '90vh'}}>
         <Grid item xs={12} sm={4} className={classes.mobile}>
           <Details title="Income" />
         </Grid>

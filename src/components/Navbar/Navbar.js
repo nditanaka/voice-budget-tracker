@@ -8,8 +8,7 @@ import './styles.css'
 const navigation = [
   { name: 'Home', href: '#', current: true },
 //   { name: 'Team', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
-//   { name: 'Calendar', href: '#', current: false },
+  // { name: 'About', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -38,15 +37,16 @@ export default function Example() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    src="https://raw.githubusercontent.com/nditanaka/voice-budget-tracker/master/src/assets/budget-cost-svg.svg"
                     alt="Workflow"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
+                    src="https://raw.githubusercontent.com/nditanaka/voice-budget-tracker/master/src/assets/budget-cost-svg.svg"
                     alt="Workflow"
-                  />
+                  />     
                 </div>
+                <div style={{color: '#BC81D3', marginTop: '0.75vh'}}>Voice Activated Budget Tracker</div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
