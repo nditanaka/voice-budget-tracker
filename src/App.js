@@ -8,6 +8,7 @@ import Details from './components/Details/Details';
 import Main from './components/Main/Main';
 import CustomNavbar from './components/Navbar/Navbar'
 import './index.css'
+import app from './utils/firebase'
 
 import useStyles from './styles';
 
