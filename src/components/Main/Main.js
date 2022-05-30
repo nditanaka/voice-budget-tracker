@@ -13,7 +13,7 @@ const Main = () => {
 
   return (
       <Card className={classes.root}>
-          <CardHeader title='Voice Budget Tracker' subheader="Powered by Speechly API" />
+          <CardHeader title='Voice Budget Tracker' subheader="Powered by Speechly API" style={{ color: '#BC81D3' }}/>
           <CardContent>
               <Typography align="center" variant="h5">Total Balance ${balance}</Typography>
               <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
