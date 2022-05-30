@@ -2,6 +2,8 @@
 
 A voice enabled web app to track and visualize income and expenses. Transactions are displayed in doughnut and pie charts.
 
+![Voice Budget Tracker](./src/assets/screenshot.png)
+
 ## Tools/ Technologies used
 
 1. Charts and visualizations: [Chart.js](https://www.chartjs.org/)
