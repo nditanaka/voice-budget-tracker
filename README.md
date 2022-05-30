@@ -16,6 +16,8 @@ A voice enabled web app to track and visualize income and expenses. Transactions
 
 6. Voice API: [Speechly](https://www.speechly.com/)
 
+7. Nav Menu: [TailwindCSS](https://tailwindui.com/)
+
 <!-- ## Available Commands
 
 In the project directory, you can run:
