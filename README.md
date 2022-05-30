@@ -8,11 +8,13 @@ A voice enabled web app to track and visualize income and expenses. Transactions
 
 2. Illustrations: [Undraw.co](https://undraw.co/illustrations)
 
-3. Design system: [Material UI](https://v4.mui.com/)
+3. Components and Design system: [Material UI](https://v4.mui.com/)
 
 4. Gradient Background: [Web Gradients](https://webgradients.com/)
 
 5. State Management: Context API
+
+6. Voice API: [Speechly](https://www.speechly.com/)
 
 <!-- ## Available Commands
 
