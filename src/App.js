@@ -38,12 +38,7 @@ const App = () => {
           <Details title="Expense" />
         </Grid>
         <PushToTalkButtonContainer>
-        <PushToTalkButton
-          placement="bottom"
-          hide="false"
-          captureKey=" "
-          intro="Push to talk"
-          size="80px" >
+        <PushToTalkButton>
         </PushToTalkButton>
         </PushToTalkButtonContainer>
       </Grid>
